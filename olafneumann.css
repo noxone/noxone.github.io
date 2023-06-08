@@ -1,0 +1,99 @@
+.card {
+    border: none !important;
+}
+
+.badge-success {
+    background-color: #6BBAA3;
+    color: #474554;
+}
+
+.badge-warning {
+    background-color: #FEFEDF;
+    color: #474554;
+}
+
+.badge-primary {
+    background-color: #4558E9;
+    color: #FBF7FF;
+}
+
+.on-background {
+    background-color: #474554;
+}
+
+.on-profile {
+    background: rgb(0,118,251);
+    background: linear-gradient(62deg, 
+        rgba(0,118,251,1) 0%, 
+        rgba(69,88,233,1) 41%, 
+        rgba(0,155,163,1) 100%
+    );
+    color: #FBF7FF;
+    font-weight: 200;
+}
+
+.on-box {
+    background: rgb(0,118,251);
+    background: linear-gradient(62deg, 
+        #D5CCFF 0%, 
+        #9090FF 41%, 
+        #B2ADFF 100%
+    );
+    color: #FBF7FF;
+    font-weight: 200;
+    
+}
+
+.on-box h2, .on-box h4 {
+    font-weight: 300;
+}
+
+.on-box h4 {
+    color: #474554;
+}
+
+.on-box .card-header, .on-profile .card-header {
+    text-align: center;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.on-box .card-footer {
+    border: none !important;
+    background-color: transparent !important;
+    font-size: 0.9rem;
+    font-weight: 200 !important;
+}
+
+.on-box .card-footer *, .on-box a {
+    font-weight: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit;
+}
+
+.on-box .card-footer .btn-link:hover, .on-box a:hover {
+    text-decoration: underline !important;
+}
+
+.on-box .card-footer span.badge {
+    float: right;
+}
+
+.on-box .card-footer span {
+    margin-left: 1rem;
+    top: 0.4rem;
+    position: relative;
+}
+
+.on-box .card {
+    background-color: #fbf7ffc7;
+    color: #474554;
+}
+
+.on-light {
+    font-weight: lighter;
+}
+
+.on-bold {
+    font-weight: bolder;
+}

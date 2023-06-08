@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <!-- now for our page -->
     <link rel="stylesheet" href="olafneumann.css">
@@ -18,198 +18,213 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
-<body class="bg-dark">
+<body class="on-background">
     <div class="container py-3" id="rg_mainContainer">
-
-        <div class="jumbotron bg-info">
-            <p class="lead d-none d-sm-block">Welcome!</p>
-            <h1 class="display-4"><span>olafneumann</span><span class="d-none d-sm-inline">.org</span></h1>
-        </div>
-
-
-        <div class="card mt-3">
-            <div class="card-body">
-                <h5 class="card-title">Olaf Neumann</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Master of Science Information Technology</h6>
-                <p class="card-text">IT Team Lead at Hapag-Lloyd AG</p>
-            </div>
-        </div>
-
-        <div class="card mt-3">
-            <div class="card-header">
-                <h3>Projects</h3>
-            </div>
-            <div class="card-body">
-
-                <div class="row">
-                    <div class="col-12 col-lg-6 pb-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <div>
-                                        <h5 class="card-title d-inline">Regex Generator</h5>
-                                        <a class="github-button" href="https://github.com/noxone/regex-generator"
-                                            data-color-scheme="no-preference: dark; light: light; dark: dark;"
-                                            data-icon="octicon-star" data-show-count="true"
-                                            aria-label="Star noxone/regex-generator on GitHub">Star</a>
-                                    </div>
-                                    <div><span class="badge badge-success">Kotlin</span></div>
-                                </div>
-                                <p class="card-text">Generate a simple regular expression from sample text. The website
-                                    will propose several possible regular expressions based on your input and will even
-                                    generate ready-to-use code for several programming languages.</p>
-                                <div>
-                                    <a href="https://regex-generator.olafneumann.org/" class="btn btn-primary"
-                                        target="_blank" rel="noopener">Visit website</a>
-                                    <a href="https://github.com/noxone/regex-generator" class="btn btn-secondary"
-                                        target="_blank" rel="noopener">GitHub project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 pb-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <h5 class="card-title">Mahjong Points Calculator</h5>
-                                    <div><span class="badge badge-success">Kotlin</span></div>
-                                </div>
-                                <p class="card-text">This is an application to compute the points of a game of mahjong.
-                                    Enter the tiles you have on your hand and the application will tell you your points.
-                                </p>
-                                <div>
-                                    <a href="https://mahjong.olafneumann.org/" class="btn btn-primary" target="_blank"
-                                        rel="noopener">Visit website</a>
-                                    <a href="https://github.com/noxone/mahjong-point-calculator"
-                                        class="btn btn-secondary" target="_blank" rel="noopener">GitHub project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 pb-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <h5 class="card-title">FefeReader</h5>
-                                    <div><span class="badge badge-primary">Swift</span></div>
-                                </div>
-                                <p class="card-text">This is an iOS app to improve reading <a
-                                        href="https://blog.fefe.de" target="_blank" rel="noopener">Fefe's blog</a> on
-                                    your iPhone.</p>
-                                <p class="card-text">The app downloads the different blog entries and display them in a
-                                    way that ensures best readability on your iPhone. Some extra features like bookmarks
-                                    and offline reading are also on board.</p>
-                                <div>
-                                    <a href="https://apps.apple.com/de/app/camel-value-calculator/id1629008778"
-                                        class="btn btn-primary" target="_blank" rel="noopener">AppStore</a>
-                                    <a href="https://fefe-reader.noxone.eu" class="btn btn-primary" target="_blank"
-                                        rel="noopener">Visit Website</a>
-                                    <a href="https://github.com/noxone/fefe-reader" class="btn btn-secondary"
-                                        target="_blank" rel="noopener">GitHub project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 pb-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <h5 class="card-title">CamelCalculator</h5>
-                                    <div><span class="badge badge-primary">Swift</span></div>
-                                </div>
-                                <p class="card-text">A small utility I used to learn Swift and SwiftUI.</p>
-                                <p class="card-text">This application computes an imaginary number of camels you or your
-                                    friends may be worth.</p>
-                                <div>
-                                    <a href="https://apps.apple.com/de/app/camel-value-calculator/id1551697175"
-                                        class="btn btn-primary" target="_blank" rel="noopener">AppStore</a>
-                                    <a href="https://github.com/Fresh-Straw/camel-calculator" class="btn btn-secondary"
-                                        target="_blank" rel="noopener">GitHub project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 pb-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <h5 class="card-title">Group Randomizer</h5>
-                                    <div><span class="badge badge-success">Kotlin</span></div>
-                                </div>
-                                <p class="card-text">Corona brought home office to us. But do you still want to have
-                                    nice "stand-up" meeting in the morning? This website helps you to spice it up a
-                                    little bit: It generates a random order for your meeting.</p>
-                                <div>
-                                    <a href="https://random-group.olafneumann.org/" class="btn btn-primary"
-                                        target="_blank" rel="noopener">Visit website</a>
-                                    <a href="https://github.com/noxone/group-randomizer" class="btn btn-secondary"
-                                        target="_blank" rel="noopener">GitHub project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 pb-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <h5 class="card-title">Oversigt</h5>
-                                    <div><span class="badge badge-warning">Java</span></div>
-                                </div>
-                                <p class="card-text">Oversigt is dashboard software. It collects information from
-                                    several sources and displays it on multiple screens.</br>The project is extensible
-                                    and is useful to display the data you need.</p>
-                                <div>
-                                    <a href="https://github.com/Hapag-Lloyd/oversigt" class="btn btn-secondary"
-                                        target="_blank" rel="noopener">GitHub project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="card display-1 on-profile shadow-lg mt-4 mb-5">
+            <div class="card-header pt-5 pb-5">
+                <div>
+                    <span class="on-light"><span class="on-bold">Olaf</span> Neumann</span>
+                </div>
+                <div class="fs-6 mt-3 mb-2">
+                    <span class="on-light">Master of Science <span class="on-bold">Information Technology</span></span>
                 </div>
             </div>
         </div>
 
-        <div class="card mt-3">
-            <div class="card-header">
-                <h3>Tutorials</h3>
+        <div class="card on-box shadow-lg mb-4">
+            <div class="card-header pt-4 px-5">
+                <h2>Projects</h2>
             </div>
-            <div class="card-body">
 
-                <div class="row">
-                    <div class="col-12 col-lg-6 pb-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <h5 class="card-title">GPG signed commits with SourceTree on Mac</h5>
-                                </div>
-                                <p class="card-text">Setting up SourceTree to sign your Git commits with GPG is not
-                                    quite as easy as you might think. This is a short tutorial on how to achieve this.
-                                </p>
-                                <div>
-                                    <a href="https://gist.github.com/noxone/2627135564d905d6a849c6854647bab1"
-                                        class="btn btn-primary" target="_blank">Visit Gist</a>
-                                </div>
+            <div class="row p-4">
+                <div class="col-12 col-lg-6 pt-2">
+                    <div class="card p-2 mb-3 shadow-lg">
+                        <div class="card-header">
+                            <h4 class="card-title d-inline">Regex Generator</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Generate a simple regular expression from sample text. The website
+                                will propose several possible regular expressions based on your input and will even
+                                generate ready-to-use code for several programming languages.
+                            </p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div>
+                                <a href="https://regex-generator.olafneumann.org/" class="btn btn-link btn-sm"
+                                    target="_blank" rel="noopener">Visit website</a>
+                                <a href="https://github.com/noxone/regex-generator" class="btn btn-link btn-sm"
+                                    target="_blank" rel="noopener">GitHub project</a>
+                                <a class="github-button" href="https://github.com/noxone/regex-generator"
+                                    data-color-scheme="no-preference: dark; light: light; dark: dark;"
+                                    data-icon="octicon-star" data-show-count="true"
+                                    aria-label="Star noxone/regex-generator on GitHub">Star</a>
                             </div>
+                            <div class="badge badge-warning">Kotlin</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-6 pt-2">
+                    <div class="card p-2 mb-3 shadow-lg">
+                        <div class="card-header">
+                            <h4 class="card-title d-inline">Mahjong Points Calculator</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                This is an application to compute the points of a game of mahjong.
+                                Enter the tiles you have on your hand and the application will tell you your points.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div>
+                                <a href="https://mahjong.olafneumann.org/" class="btn btn-link btn-sm" target="_blank"
+                                    rel="noopener">Visit website</a>
+                                <a href="https://github.com/noxone/mahjong-points-calculator-web"
+                                    class="btn btn-link btn-sm" target="_blank" rel="noopener">GitHub project</a>
+                            </div>
+                            <div class="badge badge-warning">Kotlin</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 pt-2">
+                    <div class="card p-2 mb-3 shadow-lg">
+                        <div class="card-header">
+                            <h4 class="card-title d-inline">FefeReader</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">This is an iOS app to improve reading <a href="https://blog.fefe.de"
+                                    target="_blank" rel="noopener">Fefe's blog</a> on
+                                your iPhone.</p>
+                            <p class="card-text">The app downloads the different blog entries and display them in a
+                                way that ensures best readability on your iPhone. Some extra features like bookmarks
+                                and offline reading are also on board.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div>
+                                <a href="https://apps.apple.com/de/app/camel-value-calculator/id1629008778"
+                                    class="btn btn-link" target="_blank" rel="noopener">AppStore</a>
+                                <a href="https://fefe-reader.noxone.eu" class="btn btn-link btn-sm" target="_blank"
+                                    rel="noopener">Visit Website</a>
+                                <a href="https://github.com/noxone/fefe-reader" class="btn btn-link btn-sm"
+                                    target="_blank" rel="noopener">GitHub project</a>
+                            </div>
+                            <div class="badge badge-primary">Swift</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-6 pt-2">
+                    <div class="card p-2 mb-3 shadow-lg">
+                        <div class="card-header">
+                            <h4 class="card-title d-inline">Camel Value Calculator</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">A small utility I used to learn Swift and SwiftUI.</p>
+                            <p class="card-text">This application computes an imaginary number of camels you or your
+                                friends may be worth.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div>
+                                <a href="https://apps.apple.com/de/app/camel-value-calculator/id1551697175"
+                                    class="btn btn-link btn-sm" target="_blank" rel="noopener">AppStore</a>
+                                <a href="https://github.com/Fresh-Straw/camel-calculator" class="btn btn-link btn-sm"
+                                    target="_blank" rel="noopener">GitHub project</a>
+                            </div>
+                            <div class="badge badge-primary">Swift</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-6 pt-2">
+                    <div class="card p-2 mb-3 shadow-lg">
+                        <div class="card-header">
+                            <h4 class="card-title d-inline">Oversigt</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Oversigt is dashboard software. It collects information from
+                                several sources and displays it on multiple screens.</br>The project is extensible
+                                and is useful to display the data you need.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div>
+                                <a href="https://github.com/Hapag-Lloyd/oversigt" class="btn btn-link btn-sm"
+                                    target="_blank" rel="noopener">GitHub project</a>
+                            </div>
+                            <div class="badge badge-success">Java</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-6 pt-2">
+                    <div class="card p-2 mb-3 shadow-lg">
+                        <div class="card-header">
+                            <h4 class="card-title d-inline">Group Randomizer</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Corona brought home office to us. But do you still want to have
+                                nice "stand-up" meeting in the morning? This website helps you to spice it up a
+                                little bit: It generates a random order for your meeting.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div>
+                                <a href="https://random-group.olafneumann.org/" class="btn btn-link btn-sm"
+                                    target="_blank" rel="noopener">Visit website</a>
+                                <a href="https://github.com/noxone/group-randomizer" class="btn btn-link btn-sm"
+                                    target="_blank" rel="noopener">GitHub project</a>
+                            </div>
+                            <div class="badge badge-warning">Kotlin</div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="card on-box shadow-lg mt-5 mb-4">
+            <div class="card-header pt-4 px-5">
+                <h2>Tutorials</h2>
+            </div>
+
+            <div class="row p-4">
+                <div class="col-12 col-lg-6 pt-2">
+                    <div class="card p-2 mb-3 shadow-lg">
+                        <div class="card-header">
+                            <h4 class="card-title d-inline">GPG signed commits with SourceTree on Mac</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Setting up SourceTree to sign your Git commits with GPG is not
+                                quite as easy as you might think. This is a short tutorial on how to achieve this.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://gist.github.com/noxone/2627135564d905d6a849c6854647bab1"
+                                class="btn btn-link btn-sm" target="_blank" rel="noopener">Visit Gist</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+<!--
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script>
 
-    <!-- sources of regex generator -->
-    <script type="text/javascript" src="regex-generator-web.js"></script>
-
+-->
 </body>
 
 </html>
