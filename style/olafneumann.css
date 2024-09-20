@@ -41,7 +41,6 @@
     );
     color: #FBF7FF;
     font-weight: 200;
-    
 }
 
 .on-box h2, .on-box h4 {
@@ -88,6 +87,12 @@
 .on-box .card {
     background-color: #fbf7ffc7;
     color: #474554;
+    transition: all 0.4s ease-in-out;
+}
+
+.on-box .card:hover {
+    background-color: #fbf7ffd7;
+    /*animation: pulse 4s infinite;*/
 }
 
 .on-light {
@@ -96,4 +101,18 @@
 
 .on-bold {
     font-weight: bolder;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    }
+
+    50% {
+        box-shadow: 0 1rem 4rem rgba(0,0,0,.425);
+    }
+
+    100% {
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    }
 }
